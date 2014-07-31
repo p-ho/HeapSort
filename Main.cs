@@ -6,47 +6,11 @@ namespace HeapSort
 	{
 		public static void Main (string[] args)
 		{
-			int[] mykeys = new int[] {
-				-3,
-				1,
-				2,
-				3,
-				40,
-				100,
-				1,
-				66,
-				19,
-				14,
-				18,
-				8,
-				24,
-				15,
-				32,
-				43,
-				22,
-				28,
-				21,
-				63,
-				27,
-				86,
-				58,
-				73,
-				46,
-				58,
-				73,
-				47,
-				26,
-				59,
-				74,
-				36,
-				59,
-				23,
-				12
-			};
+			int[] mykeys = new int[] {2,5,7,1};
+
+			//string[] mykeys = new string[] {"Hallo", "Wiegehts", "Gut", "Welt"};
 
 			printArray (mykeys);
-
-			//buildMaxHeap (mykeys);
 
 			heapSort (mykeys);
 
@@ -138,6 +102,9 @@ namespace HeapSort
 		private static void printArray<T> (T[] array)
 		{
 			char sep = '[';
+
+			if(array.Length == 0)
+				Console.Write(sep);
 
 			foreach (T t in array)
 			{
