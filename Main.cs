@@ -10,6 +10,8 @@ namespace HeapSort
 				1,
 				2,
 				3,
+				40,
+				50,
 				30,
 				1,
 				66,
