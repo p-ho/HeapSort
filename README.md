@@ -7,7 +7,7 @@ How to build and execute
 ------------------------
 
 To build and execute that program you'll need Mono or .NET.
-Than you can build by executing:
+Then you can build by executing:
 
 ```
 xbuild /p:Configuration=Release HeapSort.csproj
