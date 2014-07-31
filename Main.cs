@@ -46,7 +46,7 @@ namespace HeapSort
 		{
 			if (getLeftKidPos (toSinkPos) >= heapSize)
 			{
-				// No left kid => no kid at alll
+				// No left kid => no kid at all
 				return;
 			}
 
