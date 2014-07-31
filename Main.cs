@@ -7,12 +7,12 @@ namespace HeapSort
 		public static void Main (string[] args)
 		{
 			int[] mykeys = new int[] {
+				-3,
 				1,
 				2,
 				3,
 				40,
-				50,
-				30,
+				100,
 				1,
 				66,
 				19,
