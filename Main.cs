@@ -6,9 +6,9 @@ namespace HeapSort
 	{
 		public static void Main (string[] args)
 		{
-			int[] mykeys = new int[] {2,5,7,1};
+			//int[] mykeys = new int[] {2,5,7,1};
 
-			//string[] mykeys = new string[] {"Hallo", "Wiegehts", "Gut", "Welt"};
+			string[] mykeys = new string[] {"Hallo", "Wiegehts", "Gut", "Welt"};
 
 			printArray (mykeys);
 
@@ -103,8 +103,8 @@ namespace HeapSort
 		{
 			char sep = '[';
 
-			if(array.Length == 0)
-				Console.Write(sep);
+			if (array.Length == 0)
+				Console.Write (sep);
 
 			foreach (T t in array)
 			{
