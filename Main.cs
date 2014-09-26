@@ -8,7 +8,7 @@ namespace HeapSort
 		{
 			//int[] mykeys = new int[] {2,5,7,1};
 
-			//double[] mykeys = new double[] {2.2,1.5,0.7,1.0};
+			//double[] mykeys = new double[] {2.2,1.5,0.7,1.0,1.2};
 
 			string[] mykeys = new string[] {"Hallo", "Wiegehts", "Gut", "Welt"};
 
